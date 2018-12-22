@@ -12,11 +12,11 @@ Run `source('run_analyis.R')` to initiate analysis. This script requires the pac
 
 3) The following files are imported:
 
-    - UCI HAR Dataset/train/X_train.txt & UCI HAR Dataset/test/X_test.txt (contains the main data for the training and test sets)
-    - UCI HAR Dataset/features.txt (contains labels for the 561-feature vector in the training and test sets)
-    - UCI HAR Dataset/train/Y_train.txt & UCI HAR Dataset/test/Y_test.txt (contains activity ids that represent the activity being performed)
-    - UCI HAR Dataset/activity_labels.txt (contains the activity name that correspond the numeric value)
-    - UCI HAR Dataset/train/subject_train.txt & UCI HAR Dataset/test/subject_test.txt (Contains the subject identifier for each experiment)
+    - `UCI HAR Dataset/train/X_train.txt` & `UCI HAR Dataset/test/X_test.txt` (contains the main data for the training and test sets)
+    - `UCI HAR Dataset/features.txt` (contains labels for the 561-feature vector in the training and test sets)
+    - `UCI HAR Dataset/train/Y_train.txt` & `UCI HAR Dataset/test/Y_test.txt` (contains activity ids that represent the activity being performed)
+    - `UCI HAR Dataset/activity_labels.txt` (contains the activity name that correspond the numeric value)
+    - `UCI HAR Dataset/train/subject_train.txt` & `UCI HAR Dataset/test/subject_test.txt` (Contains the subject identifier for each experiment)
 
 4) A column was added to training and test data tables identifying its type to identify origin of data in the merged dataset. The subject identifier data was also added to the respective training and test data tables
 
@@ -30,7 +30,7 @@ Run `source('run_analyis.R')` to initiate analysis. This script requires the pac
 
 9) A new dataset was created using `group_by()`, `select()` and `summarise_all()` were used to find averages of measurements for each activity and each subject
 
-10) The dataset was written out to `tidy_dataset.txt` using `write.table()`
+10) The dataset was written out to [tidy_dataset.txt](./tidy_dataset.txt) using `write.table()`
 
 ## Study Design
 
