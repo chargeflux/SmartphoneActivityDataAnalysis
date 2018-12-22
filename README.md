@@ -2,7 +2,7 @@
 
 ## Analysis Script
 
-Run `source(run_analyis.R)` to initiate analysis. This script requires the package `dplyr`.
+Run `source('run_analyis.R')` to initiate analysis. This script requires the package `dplyr`.
 
 `run_analysis.R` performs a series of steps to get and clean data from the data set, [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) by Anguita et al.
 
